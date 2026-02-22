@@ -114,7 +114,7 @@ git clone URL
 
 > Definir caminho para push e pull (para conectar ao repositório no GITHUB caso não for clonado)
 ```bash
-git clone URL
+git git remote add origin https://github.com/seu-usuario/nome-repo.git
 ```
 
 > Verificar caminhos para push e pull
