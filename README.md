@@ -1,6 +1,6 @@
 # Git e GitHub - Hashtag
 
-
+## Comandos
 
 - Config inicial
 
@@ -185,4 +185,4 @@ git --version
 git config --list
 ```
 
-teste3
+## Padrão Pull Request
