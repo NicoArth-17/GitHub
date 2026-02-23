@@ -71,6 +71,16 @@ git switch branch_name
 git merge branch_name
 ```
 
+> Verificar branch do caminho remoto remoto
+```bash
+git branch -r
+```
+
+> Verificar branch do caminho remoto remoto e local
+```bash
+git branch -a
+```
+
 - Alterações
 
 > Enviar modificação para staging area 
@@ -100,17 +110,31 @@ git log
 > Clonar
 ```bash
 git clone URL
-cd projeto/
 ```
 
-> Verificar modificações
+> Definir caminho para push e pull (para conectar ao repositório no GITHUB caso não for clonado)
+```bash
+git git remote add origin https://github.com/seu-usuario/nome-repo.git
+```
+
+> Verificar caminhos para push e pull
 ```bash
 git remote -v
 ```
 
+> Alterar para novo caminho antigo para push e pull
+```bash
+git remote set-url origin https://github.com/usuario/repo-novo.git
+```
+
+> Adicionar caminho antigo para push e pull
+```bash
+git remote add origin caminho_antigo
+```
+
 > Enviar modificações
 ```bash
-git push origin main
+git push origin branch_name
 ```
 
 > Receber modificações
@@ -147,6 +171,8 @@ node_modules/
 *.log
 ```
 
+> Definir caminho remoto
+
 - Comandos gerais
 
 > Como verificar a versão do Git
@@ -159,4 +185,4 @@ git --version
 git config --list
 ```
 
-teste
+teste3
